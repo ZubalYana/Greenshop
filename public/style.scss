@@ -17,19 +17,80 @@
         justify-content: space-between;
         align-items: center;
         padding: 0 100px;
-        background-color: #333;
-        color: #fff;
-        #cartCounter{
-            cursor: pointer;
+        color: #3D3D3D;
+        .header_logo{
+            width: 150px;
         }
-        .cartContainer{
+        .header_nav{
+            width: 350px;
             display: flex;
-            align-items: center;
-            button{
-                display: none;
-                margin-left: 20px;
+            justify-content: space-between;
+            .header_nav_element{
+                font-size: 16px;
+                font-weight: 400;
+            }
+            .header_nav_element_active{
+                font-weight: 600;
             }
         }
+        .header_otherElements{
+            width: 210px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .header_otherElementsIcon{
+                width: 20px;
+                height: 20px;
+                cursor: pointer;
+            }
+            #cartCounter{
+                cursor: pointer;
+            }
+            .cartContainer{
+                display: flex;
+                align-items: center;
+                position: relative;
+                #cartCounter{
+                    position: absolute;
+                    width: 17px;
+                    height: 17px;
+                    border-radius: 50%;
+                    background-color: #46A358;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: #fff;
+                    border: #fff 2px solid;
+                    font-size: 10px;
+                    font-weight: 500;
+                    left: 13px;
+                    top: -3px;
+                }
+                button{
+                    display: none;
+                    margin-left: 20px;
+                }
+            }
+            .header_otherElements_Btn{
+                width: 100px;
+                height: 35px;
+                background-color: #46A358;
+                border-radius: 6px;
+                color: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 16px;
+                font-weight: 600;
+                cursor: pointer;
+                .header_otherElements_Btn_Icon{
+                    width: 20px;
+                    height: 20px;
+                    margin-right: 2px;
+                }
+            }
+        }
+
 
     }
     main{
