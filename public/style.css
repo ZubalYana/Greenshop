@@ -147,10 +147,12 @@
   display: flex;
   align-items: center;
   cursor: pointer;
+  transition: 0.2s ease;
 }
 .wrap .goodsContainer .goodsCard .goodsCardBtn .goodsCardBtn_icon {
   width: 22px;
   margin-right: 6px;
+  transition: 0.2s ease;
 }
 
 .popup {

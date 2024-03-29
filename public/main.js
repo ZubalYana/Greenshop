@@ -63,7 +63,6 @@ for(let el of db){
     <button class="goodsCardBtn" id='buy${el.id}'><img class='goodsCardBtn_icon' src='./imgs/white cart.png'>Buy</button>
 </div>`)
 }
-
 let cardList = []
 $('.wrap').click(function(e){
     if(e.target.id){
@@ -107,8 +106,6 @@ $('#send').click(()=>{
         }
     })
 })
-
-
 function showNotification(message, status){
     if(status == 200){
         $('.notificationPopup').css('background-color', 'rgb(84, 183, 84)');
@@ -124,3 +121,17 @@ function showNotification(message, status){
         $('.notificationPopup').css('display', 'none');
     }, 3000);;
 }
+$('.goodsCardBtn').hover(
+    function() {
+        $(this).css('background-color', '#fff');
+        $(this).css('color', '#46A358');
+        $(this).css('border', '2px solid #46A358');
+        $(this).find('.goodsCardBtn_icon').attr('src', './imgs/green cart.png');
+    },
+    function() {
+        $(this).css('background-color', '#46A358');
+        $(this).css('color', '#fff');
+        $(this).css('border', 'none');
+        $(this).find('.goodsCardBtn_icon').attr('src', './imgs/white cart.png');
+    }
+);
