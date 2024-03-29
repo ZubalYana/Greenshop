@@ -179,7 +179,7 @@
   display: none;
   justify-content: center;
   align-items: center;
-  z-index: 9999;
+  z-index: 9998;
 }
 .popupContainer .popup {
   display: flex;
@@ -291,7 +291,7 @@
 .notificationPopup {
   width: 300px;
   height: 100px;
-  background-color: rgb(84, 183, 84);
+  background-color: #46A358;
   position: fixed;
   bottom: 20px;
   left: 20px;
@@ -302,4 +302,5 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  z-index: 9999;
 }/*# sourceMappingURL=style.css.map */

@@ -119,6 +119,8 @@ $('#send').click(()=>{
             showNotification('Замовлення відправлено', res.status)
         }
     })
+    $('.popupContainer').css('display', 'none')
+
 })
 function showNotification(message, status){
     if(status == 200){
