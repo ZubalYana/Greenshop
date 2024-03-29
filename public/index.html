@@ -11,12 +11,19 @@
 </head>
 <body>
     <div class="notificationPopup"></div>
-    <div class="popup">
-        <input type="text" id="name" placeholder="Name">
-        <input type="text" id="phone" placeholder="Phone">
-        <button id="send">Send</button>
-
+    <div class="popupContainer">
+        <div class="popup">
+            <div class="popup_confirmSecrion"></div>
+            <div class="popup_infoSection">
+                <input type="text" id="name" placeholder="Name">
+                <input type="text" id="phone" placeholder="Phone">
+                <button id="send">Send</button>
+            </div>
+    
+    
+        </div>
     </div>
+
     <div class="wrap">
         <header>
             <img class="header_logo" src="./imgs/Logo.png" alt="">
@@ -29,8 +36,11 @@
             <div class="header_otherElements">
                 <img class="header_otherElementsIcon" src="./imgs/search.png" alt="">
                 <div class="cartContainer">
-                    <img class="header_otherElementsIcon" id="cart" src="./imgs/cart.png" alt="">
-                    <div id="cartCounter">0</div>
+                    <div class="cartContainer_cartElements">
+                        <img class="header_otherElementsIcon" id="cart" src="./imgs/cart.png" alt="">
+                        <div id="cartCounter">0</div>
+                    </div>
+
                     <button id="sendData">Підтвердити</button>
                 </div>
                 <div class="header_otherElements_Btn">

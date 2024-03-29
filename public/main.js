@@ -79,7 +79,7 @@ $('.wrap').click(function(e){
         }
     }
 })
-$('#cartCounter').click(function(){
+$('.cartContainer_cartElements').click(function(){
     $('#sendData').css('display', 'flex')
 })
 $('#sendData').click(function(){
