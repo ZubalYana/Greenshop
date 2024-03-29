@@ -112,17 +112,45 @@
   width: 100%;
   justify-content: space-around;
 }
-.wrap .goodsCard {
-  width: 300px;
-  height: 150px;
-  box-shadow: 0 0 10px #ccc;
+.wrap .goodsContainer .goodsCard {
+  width: 254px;
+  min-height: 319px;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   padding: 20px;
   margin: 20px;
-  justify-content: space-between;
+  color: #3D3D3D;
+}
+.wrap .goodsContainer .goodsCard h2 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.wrap .goodsContainer .goodsCard img {
+  width: 250px;
+}
+.wrap .goodsContainer .goodsCard h5 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #46A358;
+}
+.wrap .goodsContainer .goodsCard .goodsCardBtn {
+  background-color: #46A358;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  width: 80px;
+  padding: 10px;
+  height: 40px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.wrap .goodsContainer .goodsCard .goodsCardBtn .goodsCardBtn_icon {
+  width: 22px;
+  margin-right: 6px;
 }
 
 .popup {

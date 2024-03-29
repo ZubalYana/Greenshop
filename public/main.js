@@ -1,36 +1,66 @@
 let db = [
     {
         id: 1,
-        name: 'Футболка',
-        price: 300
+        name: 'Barberton Daisy',
+        price: '$119.00',
+        img: './imgs/plant 1.png',
     },
     {
         id: 2,
-        name: 'Чашка',
-        price: 100
+        name: 'Angel Wing Begonia',
+        price: '$169.00',
+        img: './imgs/plant 2.png',
     },
     {
         id: 3,
-        name: 'Кепка',
-        price: 200
+        name: 'African Violet',
+        price: '$199.00',
+        img: './imgs/plant 3.png',
     },
     {
         id: 4,
-        name: 'Блокнот',
-        price: 50
+        name: 'Beach Spider Lily',
+        price: '$129.00',
+        img: './imgs/plant 4.png',
     },
     {
         id: 5,
-        name: 'Ручка',
-        price: 10
+        name: 'Blushing Bromeliad',
+        price: '$139.00',
+        img: './imgs/plant 5.png',
+    },
+    {
+        id: 6,
+        name: 'Aluminum Plant',
+        price: '$179.00',
+        img: './imgs/plant 6.png',
+    },
+    {
+        id: 7,
+        name: 'Bird\'s Nest Fern',
+        price: '$99.00',
+        img: './imgs/plant 7.png',
+    },
+    {
+        id: 8,
+        name: 'Broadleaf Lady Palm',
+        price: '$59.00',
+        img: './imgs/plant 8.png',
+    },
+    {
+        id: 9,
+        name: 'Chinese Evergreen',
+        price: '$39.00',
+        img: './imgs/plant 9.png',
     },
 ]
 for(let el of db){
     $('.goodsContainer').append(`
     <div class="goodsCard">
+    <img src='${el.img}'>
     <h2>${el.name}</h2>
-    <h5>${el.price} грн.</h5>
-    <button class="goodsCardBtn" id='buy${el.id}'>В корзину</button>
+    <h5>${el.price}</h5>
+    <button class="goodsCardBtn" id='buy${el.id}'><img class='goodsCardBtn_icon' src='./imgs/white cart.png'>Buy</button>
 </div>`)
 }
 
