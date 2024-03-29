@@ -28,6 +28,7 @@
             .header_nav_element{
                 font-size: 16px;
                 font-weight: 400;
+                cursor: pointer;
             }
             .header_nav_element_active{
                 font-weight: 600;
@@ -105,59 +106,75 @@
             margin-top: 30px;
         }
     }
-    .goodsContainer{
-        display: flex;
-        flex-wrap: wrap;
-        padding: 50px 100px;
+    .mainPartContainer{
+        padding: 0 100px;
+        margin-top: 50px;
         width: 100%;
-        justify-content: space-around;
-        .goodsCard{
-            width: 254px;
-            min-height: 319px;
-            // box-shadow: 0 0 10px #ccc;
-            border-radius: 20px;
+        display: flex;
+        .categoriesCon{
+            width: 20px;
+            background-color: #F5F5F5;
+            width: 310px;
+            height: 774px;
+        }
+        .goodsContainer{
             display: flex;
-            flex-direction: column;
-            padding: 20px;
-            margin: 20px;
-            color: #3D3D3D;
-            h2{
-                font-size: 16px;
-                font-weight: 500;
-            }
-            img{
-                width: 250px;
-            }
-            h5{
-                font-size: 18px;
-                font-weight: 700;
-                color: #46A358;
-            }
-            .goodsCardBtn{
-                background-color: #46A358;
-                color: #fff;
-                font-size: 16px;
-                font-weight: 500;
-                border: none;
-                width: 80px;
-                padding: 10px;
-                height: 40px;
-                border-radius: 6px;
+            flex-wrap: wrap;
+            // padding: 50px 100px;
+            width: 75%;
+            justify-content: space-around;
+            // background-color: #46A358;
+            .goodsCard{
+                width: 254px;
+                min-height: 319px;
+                // box-shadow: 0 0 10px #ccc;
+                border-radius: 20px;
                 display: flex;
-                align-items: center;
-                cursor: pointer;
-                transition: 0.2s ease;
-    
-                .goodsCardBtn_icon{
-                    width: 22px;
-                    margin-right: 6px;
-                    transition: 0.2s ease;
-
+                flex-direction: column;
+                padding: 20px;
+                margin: 20px;
+                color: #3D3D3D;
+                h2{
+                    font-size: 16px;
+                    font-weight: 500;
                 }
-            }
+                img{
+                    width: 250px;
+                }
+                h5{
+                    font-size: 18px;
+                    font-weight: 700;
+                    color: #46A358;
+                    margin-top: 5px;
+                }
+                .goodsCardBtn{
+                    background-color: #46A358;
+                    color: #fff;
+                    font-size: 16px;
+                    font-weight: 500;
+                    border: none;
+                    width: 80px;
+                    padding: 10px;
+                    height: 40px;
+                    border-radius: 6px;
+                    display: flex;
+                    align-items: center;
+                    cursor: pointer;
+                    transition: 0.2s ease;
+                    margin-top: 10px;
+        
+                    .goodsCardBtn_icon{
+                        width: 22px;
+                        margin-right: 6px;
+                        transition: 0.2s ease;
     
+                    }
+                }
+        
+            }
         }
     }
+
 
 
 }

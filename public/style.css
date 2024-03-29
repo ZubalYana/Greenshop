@@ -32,6 +32,7 @@
 .wrap header .header_nav .header_nav_element {
   font-size: 16px;
   font-weight: 400;
+  cursor: pointer;
 }
 .wrap header .header_nav .header_nav_element_active {
   font-weight: 600;
@@ -105,14 +106,25 @@
   background-color: #F5F5F5;
   margin-top: 30px;
 }
-.wrap .goodsContainer {
+.wrap .mainPartContainer {
+  padding: 0 100px;
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+}
+.wrap .mainPartContainer .categoriesCon {
+  width: 20px;
+  background-color: #F5F5F5;
+  width: 310px;
+  height: 774px;
+}
+.wrap .mainPartContainer .goodsContainer {
   display: flex;
   flex-wrap: wrap;
-  padding: 50px 100px;
-  width: 100%;
+  width: 75%;
   justify-content: space-around;
 }
-.wrap .goodsContainer .goodsCard {
+.wrap .mainPartContainer .goodsContainer .goodsCard {
   width: 254px;
   min-height: 319px;
   border-radius: 20px;
@@ -122,19 +134,20 @@
   margin: 20px;
   color: #3D3D3D;
 }
-.wrap .goodsContainer .goodsCard h2 {
+.wrap .mainPartContainer .goodsContainer .goodsCard h2 {
   font-size: 16px;
   font-weight: 500;
 }
-.wrap .goodsContainer .goodsCard img {
+.wrap .mainPartContainer .goodsContainer .goodsCard img {
   width: 250px;
 }
-.wrap .goodsContainer .goodsCard h5 {
+.wrap .mainPartContainer .goodsContainer .goodsCard h5 {
   font-size: 18px;
   font-weight: 700;
   color: #46A358;
+  margin-top: 5px;
 }
-.wrap .goodsContainer .goodsCard .goodsCardBtn {
+.wrap .mainPartContainer .goodsContainer .goodsCard .goodsCardBtn {
   background-color: #46A358;
   color: #fff;
   font-size: 16px;
@@ -148,8 +161,9 @@
   align-items: center;
   cursor: pointer;
   transition: 0.2s ease;
+  margin-top: 10px;
 }
-.wrap .goodsContainer .goodsCard .goodsCardBtn .goodsCardBtn_icon {
+.wrap .mainPartContainer .goodsContainer .goodsCard .goodsCardBtn .goodsCardBtn_icon {
   width: 22px;
   margin-right: 6px;
   transition: 0.2s ease;
