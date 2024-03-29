@@ -20,11 +20,11 @@ app.post('/send', async (req, res)=>{
         let order = '';
         let sum = 0;
         for(let el of list){
-            order += el.name + ':' + el.price + '\n'
+            order += el.name + ': ' + '$' + el.price + '.00' + '\n'
             sum += el.price;
         }
 
-        bot.sendMessage(process.env.CHATID, `Нове замовлення від коистувача: ${name} \n ${phone}. \n Замовлення: ${order}. \n Сума замовлення: ${sum}`);
+        bot.sendMessage(process.env.CHATID, `A new order from:\n${name}: ${phone}.\nThe order: \n${order}. \n Сума замовлення: $${sum}.00`);
     
         res.sendStatus(200);
     }catch(e){
