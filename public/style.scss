@@ -211,11 +211,26 @@
             .popup_confirmSecrion_selectedGoods{
                 margin-top: 13px;
                 .popup_confirmSecrion_selectedGoods_Item{
-                    width: 100%;
+                    padding: 10px;
+                    width: 40%;
                     height: 70px;
                     border: 2px #3D3D3D solid;
                     border-radius: 6px;
                     display: flex;
+                    img{
+                        margin-right: 15px;
+                    }
+
+                    .popup_confirmSecrion_selectedGoods_Item_Name{
+                        font-size: 16px;
+                        font-weight: 500;
+                    }
+                    .popup_confirmSecrion_selectedGoods_Item_Price{
+                        font-size: 18px;
+                        font-weight: 700;
+                        color: #46A358;
+                        margin-top: 5px;
+                    }
                 }
 
             }

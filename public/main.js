@@ -82,6 +82,17 @@ $('.wrap').click(function(e){
 $('.cartContainer_cartElements').click(function(){
     $('#sendData').css('display', 'flex')
     $('.popupContainer').css('display', 'flex')
+    for(let el of cardList){
+        $('.popup_confirmSecrion_selectedGoods').append(
+            `<div class="popup_confirmSecrion_selectedGoods_Item">
+            <img src="${el.img}" alt="">
+            <div class="popup_confirmSecrion_selectedGoods_Item_NamePrice">
+                <div class="popup_confirmSecrion_selectedGoods_Item_Name">${el.name}</div>
+                <div class="popup_confirmSecrion_selectedGoods_Item_Price">${el.price}</div>
+            </div>
+        </div>`
+        )
+    }
 
 })
 $('#sendData').click(function(){
