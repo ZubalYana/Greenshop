@@ -81,9 +81,12 @@ $('.wrap').click(function(e){
 })
 $('.cartContainer_cartElements').click(function(){
     $('#sendData').css('display', 'flex')
+    $('.popupContainer').css('display', 'flex')
+
 })
 $('#sendData').click(function(){
-    $('.popup').css('display', 'flex')
+    $('.popup_confirmSecrion').css('display', 'none')
+    $('.popup_infoSection').css('display', 'flex')
 })
 $('#send').click(()=>{
     let data = {
