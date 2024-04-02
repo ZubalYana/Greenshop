@@ -110,13 +110,16 @@
             }
             .banner_textPart{
                 color: #3D3D3D;
+                padding: 70px 0 0 43px;
                 .banner_textPart_subtitle{
                     font-size: 14px;
                     font-weight: 500;
                 }
                 .banner_textPart_title{
-                    font-size: 70px;
+                    width: 100%;
+                    font-size: 64px;
                     font-weight: 800;
+                    text-transform: uppercase;
                     .banner_textPart_title_Green{
                         color: #46A358;
                     }
