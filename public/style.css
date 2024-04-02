@@ -150,6 +150,12 @@
   border-radius: 6px;
   margin-top: 40px;
   cursor: pointer;
+  transition: 0.5s ease;
+}
+.wrap main .banner .banner_textPart .banner_textPart_btn:hover {
+  background-color: #F5F5F5;
+  color: #46A358;
+  border: #46A358 2px solid;
 }
 .wrap main .banner .banner_imgPart {
   height: 100%;

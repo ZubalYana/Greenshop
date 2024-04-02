@@ -147,6 +147,12 @@
                     border-radius: 6px;
                     margin-top: 40px;
                     cursor: pointer;
+                    transition: 0.5s ease;
+                }
+                .banner_textPart_btn:hover{
+                    background-color: #F5F5F5;
+                    color: #46A358;
+                    border: #46A358 2px solid;
                 }
             }
             .banner_imgPart{
