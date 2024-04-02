@@ -104,6 +104,43 @@
             height: 450px;
             background-color: #F5F5F5;
             margin-top: 30px;
+            display: flex;
+            .bannerPart{
+                width: 50%;
+            }
+            .banner_textPart{
+                color: #3D3D3D;
+                .banner_textPart_subtitle{
+                    font-size: 14px;
+                    font-weight: 500;
+                }
+                .banner_textPart_title{
+                    font-size: 70px;
+                    font-weight: 800;
+                    .banner_textPart_title_Green{
+                        color: #46A358;
+                    }
+                }
+                .banner_textPart_subtitle{
+                    font-size: 14px;
+                    font-weight: 400;
+                }
+                .banner_textPart_btn{
+                    width: 140px;
+                    height: 40px;
+                    background-color: #46A358;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 16px;
+                    font-weight: 700;
+                    color: #fff;
+                    border-radius: 6px;
+                }
+            }
+            .banner_imgPart{
+                
+            }
         }
     }
     .mainPartContainer{

@@ -105,6 +105,40 @@
   height: 450px;
   background-color: #F5F5F5;
   margin-top: 30px;
+  display: flex;
+}
+.wrap main .banner .bannerPart {
+  width: 50%;
+}
+.wrap main .banner .banner_textPart {
+  color: #3D3D3D;
+}
+.wrap main .banner .banner_textPart .banner_textPart_subtitle {
+  font-size: 14px;
+  font-weight: 500;
+}
+.wrap main .banner .banner_textPart .banner_textPart_title {
+  font-size: 70px;
+  font-weight: 800;
+}
+.wrap main .banner .banner_textPart .banner_textPart_title .banner_textPart_title_Green {
+  color: #46A358;
+}
+.wrap main .banner .banner_textPart .banner_textPart_subtitle {
+  font-size: 14px;
+  font-weight: 400;
+}
+.wrap main .banner .banner_textPart .banner_textPart_btn {
+  width: 140px;
+  height: 40px;
+  background-color: #46A358;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 6px;
 }
 .wrap .mainPartContainer {
   padding: 0 100px;
