@@ -140,6 +140,16 @@
   color: #fff;
   border-radius: 6px;
 }
+.wrap main .banner .banner_imgPart {
+  height: 100%;
+  position: relative;
+}
+.wrap main .banner .banner_imgPart .banner_img {
+  width: 518px;
+  position: absolute;
+  top: -50px;
+  left: 120px;
+}
 .wrap .mainPartContainer {
   padding: 0 100px;
   margin-top: 50px;

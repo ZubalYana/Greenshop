@@ -139,7 +139,14 @@
                 }
             }
             .banner_imgPart{
-                
+                height: 100%;
+                position: relative;
+                .banner_img{
+                    width: 518px;
+                    position: absolute;
+                    top: -50px;
+                    left: 120px;
+                }
             }
         }
     }
