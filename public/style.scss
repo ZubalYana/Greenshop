@@ -120,9 +120,15 @@
                     font-size: 64px;
                     font-weight: 800;
                     text-transform: uppercase;
+                    margin-top: 15px;
                     .banner_textPart_title_Green{
                         color: #46A358;
                     }
+                }
+                .banner_textPart_text{
+                    font-size: 14px;
+                    font-weight: 400;
+                    margin-top: 5px;
                 }
                 .banner_textPart_subtitle{
                     font-size: 14px;
@@ -139,6 +145,8 @@
                     font-weight: 700;
                     color: #fff;
                     border-radius: 6px;
+                    margin-top: 40px;
+                    cursor: pointer;
                 }
             }
             .banner_imgPart{
