@@ -5,6 +5,16 @@
   font-family: Montserrat;
 }
 
+::-moz-selection {
+  background-color: #3D3D3D;
+  color: #46A358;
+}
+
+::selection {
+  background-color: #3D3D3D;
+  color: #46A358;
+}
+
 .wrap {
   width: 100%;
   height: 100vh;
