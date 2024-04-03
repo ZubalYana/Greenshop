@@ -201,6 +201,11 @@
   justify-content: space-between;
   font-size: 15px;
   font-weight: 500;
+  margin-top: 25px;
+}
+.wrap .mainPartContainer .categoriesCon #activePlantCategoty {
+  color: #46A358;
+  font-weight: 700;
 }
 .wrap .mainPartContainer .goodsContainer {
   display: flex;
