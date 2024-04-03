@@ -210,6 +210,41 @@
 .wrap .mainPartContainer .categoriesCon #priceRange {
   margin: 50px 0 15px 0;
 }
+.wrap .mainPartContainer .categoriesCon input[type=range] {
+  -webkit-appearance: none;
+  -moz-apperance: none;
+  -moz-appearance: none;
+       appearance: none;
+  width: 200px;
+  height: 10px;
+  background: rgba(70, 163, 89, 0.2);
+  border-radius: 5px;
+}
+.wrap .mainPartContainer .categoriesCon input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 10px;
+  background: rgba(70, 163, 89, 0.2);
+  border-radius: 5px;
+}
+.wrap .mainPartContainer .categoriesCon input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 10px;
+  height: 10px;
+  background: #46A358;
+  border: 1px solid #4CAF50;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.wrap .mainPartContainer .categoriesCon input[type=range]::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: #ffffff;
+  border: 1px solid #4CAF50;
+  border-radius: 50%;
+  cursor: pointer;
+}
 .wrap .mainPartContainer .goodsContainer {
   display: flex;
   flex-wrap: wrap;
