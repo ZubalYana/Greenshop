@@ -188,6 +188,19 @@
   background-color: #F5F5F5;
   width: 310px;
   height: 774px;
+  padding: 20px;
+  color: #3D3D3D;
+}
+.wrap .mainPartContainer .categoriesCon .categoriesCon_title {
+  font-size: 16px;
+  font-weight: 700;
+}
+.wrap .mainPartContainer .categoriesCon .categoriesCon_category {
+  width: 255px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  font-weight: 500;
 }
 .wrap .mainPartContainer .goodsContainer {
   display: flex;
