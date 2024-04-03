@@ -207,6 +207,9 @@
   color: #46A358;
   font-weight: 700;
 }
+.wrap .mainPartContainer .categoriesCon #priceRange {
+  margin: 50px 0 15px 0;
+}
 .wrap .mainPartContainer .goodsContainer {
   display: flex;
   flex-wrap: wrap;
