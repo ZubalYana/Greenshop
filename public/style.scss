@@ -180,7 +180,7 @@
             width: 20px;
             background-color: #F5F5F5;
             width: 310px;
-            height: 774px;
+            height: 800px;
             padding: 20px;
             color: #3D3D3D;
             .categoriesCon_title{
@@ -236,6 +236,40 @@
                 border: 1px solid #4CAF50;
                 border-radius: 50%;
                 cursor: pointer;
+            }
+            .price{
+                margin: 15px 0;
+                display: flex;
+                font-size: 15px;
+                font-weight: 500;
+                .price_numbers{
+                    color: #46A358;
+                    font-weight: 700;
+                    margin-left: 6px;
+                }
+            }
+            .priceBtn{
+                width: 90px;
+                height: 35px;
+                background-color: #46A358;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 16px;
+                font-weight: 500;
+                color: #fff;
+                border-radius: 6px;
+                margin-top: 19px;
+                cursor: pointer;
+                transition: 0.5s ease;
+            }
+            .priceBtn:hover{
+                background-color: #F5F5F5;
+                color: #46A358;
+                border: #46A358 2px solid;
+            }
+            #size{
+                margin-top: 40px;
             }
         }
         .goodsContainer{
